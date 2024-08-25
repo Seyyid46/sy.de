@@ -123,8 +123,8 @@ section{
     line-height: 1.8;
 }
 .home-image img{
-    width: 32vw;
-    border-radius: 50%;
+    width: 22vw;
+    border-radius: 35%;
     box-shadow: 0 0 25px var(--main-color);
     transition: 0.4s ease-in-out;
 }
@@ -172,6 +172,9 @@ section{
     transform: scale(1.1);
     box-shadow: 0 0 25px var(--main-color),
                 0 0 50px var(--main-color);
+}
+.btn a{
+    color: black;
 }
 .text-animation{
     font-size: 10px;
@@ -352,6 +355,7 @@ section{
     cursor: pointer;
     box-shadow: 0 0 5px var(--main-color);
     transition: 0.3s ease;
+    max-height: 50rem;
 }
 .project-card:hover{
     box-shadow: 0 0 25px var(--main-color),
@@ -359,7 +363,7 @@ section{
     transform: scale(1.05);
 }
 .project-card img{
-    max-width: 300px;
+    max-width: 250px;
     border-radius: 2em;
     object-fit: cover;
 }
