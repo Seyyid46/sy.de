@@ -397,6 +397,37 @@ section{
     margin: 1.5rem 0;
     resize: none;
 }
+.number{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    padding: 5rem 15%;
+}
+.number h3{
+    font-size: 4rem;
+}
+.social-icons-big a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    padding: 1rem;
+    background: transparent;
+    border: 2px solid var(--main-color);
+    border-radius: 50%;
+    color: var(--main-color);
+    margin: 6rem 0.5rem;
+    transition: 0.3s ease-in-out;
+}
+.social-icons-big a:hover{
+    color: var(--text-color);
+    background-color: var(--main-color);
+    transform: scale(1.2)translateY(-5px);
+    box-shadow: 0 0 25px var(--main-color);
+}
 
 /*Style of the Footer*/
 .footer{
