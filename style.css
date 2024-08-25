@@ -467,7 +467,8 @@ section{
 @media (max-width: 800px){
     #menu-icon{
         display: block;
-
+        font-size: 5rem;
+        padding: 1rem 2rem;
     }
     .navbar{
         position: absolute;
@@ -491,7 +492,7 @@ section{
         display: block;
     }
     .gradient-button{
-        display: none;
+        margin: 1rem 5rem;
     }
     .home{
         flex-direction: column-reverse;
