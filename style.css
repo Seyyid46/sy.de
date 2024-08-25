@@ -432,6 +432,7 @@ section{
 @media (max-width: 800px){
     #menu-icon{
         display: block;
+
     }
     .navbar{
         position: absolute;
@@ -443,6 +444,7 @@ section{
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
+        display: none;
     }
     .navbar a{
         display: block;
@@ -458,7 +460,7 @@ section{
     }
     .home{
         flex-direction: column-reverse;
-        margin: 5rem 0;
+        margin: 8rem 0;
         gap: 5rem;
     }
     .home-content{
@@ -466,7 +468,8 @@ section{
         text-align: center;
     }
     .home-img img{
-        width: 56vw;
+        padding-top: 8rem ;
+        width: 86vw;
     }
     .aboutMe{
         flex-direction: column-reverse;
