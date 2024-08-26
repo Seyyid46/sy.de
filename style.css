@@ -489,6 +489,8 @@ section{
     }
     .gradient-button{
         margin: 1rem 5rem;
+        width: 21vw;
+        font-size: 9px;
     }
     .home{
         flex-direction: column-reverse;
@@ -498,10 +500,6 @@ section{
     .home-content{
         align-items: center;
         text-align: center;
-    }
-    .home-img img{
-        padding-top: 8rem ;
-        width: 86vw;
     }
     .aboutMe{
         flex-direction: column-reverse;
@@ -516,5 +514,19 @@ section{
     }
     .contact form{
         flex-direction: column;
+    }
+    .services-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .service-info p{
+        font-size: 1.8rem;
+    }
+    .project-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .number h3{
+        font-size: 3rem;
     }
 }
