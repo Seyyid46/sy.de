@@ -165,30 +165,27 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
 
-        <form action="#">
+        <form method="POST" id="form">
+            <input type="hidden" name="access_key" value="d6d8a1c8-cdb1-4bd9-90f8-3ff61e80e272">
+            <input type="checkbox" name="botcheck" id="" style="display: none;">
+
             <div class="input-group">
                 <div class="input-box">
-                    <label>
-                        <input type="text" placeholder="Vor-Nachname">
-                    </label>
-                    <label>
-                        <input type="email" placeholder="E-Mail">
-                    </label>
+                    <input type="text" name="full_name" placeholder="Vor-Nachname" required>
+                    <input type="email" name="e-mail" placeholder="E-Mail" required>
                 </div>
                 <div class="input-box">
-                    <label>
-                        <input type="number" placeholder="Telefonnummer">
-                    </label>
-                    <label>
-                        <input type="text" placeholder="Betreff">
-                    </label>
+                    <input type="number" name="phone" placeholder="Telefonnummer">
+                    <input type="text" name="subject" placeholder="Betreff">
                 </div>
             </div>
 
             <div class="input-group-2">
-                <label for=""></label><textarea name="" id="" placeholder="Ihre Nachricht" cols="30" rows="10"></textarea>
+                <textarea name="message" placeholder="Ihre Nachricht" cols="30" rows="10" required></textarea>
                 <input type="submit" value="Kontaktieren" class="btn">
             </div>
+
+            <div id="result"></div>
         </form>
         
         <div class="number">
