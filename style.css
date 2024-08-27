@@ -397,6 +397,9 @@ section{
     margin: 1.5rem 0;
     resize: none;
 }
+#result{
+    margin: 2rem 0;
+}
 .number{
     display: flex;
     flex-direction: column;
